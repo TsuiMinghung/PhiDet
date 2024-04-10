@@ -1,0 +1,12 @@
+{'not-freeze-hard-template-acc': '0.84000', 'model-name': 'bert', 'plm-freeze': False, 'template': 'Content: {"placeholder":"text_a"} Subject: {"placeholder":"text_b"}. This is {"mask"} email.', 'acc': 'acc is 0.83000', 'soft-template': '{"placeholder":"text_a"} {"soft": "Question:"} {"placeholder":"text_b"}? This is {"mask"} email.', 'soft-template-acc': 'soft template acc is 0.83000', 'not-freeze-mixed-template-acc': '0.83000'}{'model-name': 'bert', 'plm-freeze': True, 'soft-template': MixedTemplate(
+  (raw_embedding): Embedding(21128, 768, padding_idx=0)
+  (soft_embedding): Embedding(9, 768)
+), 'soft-template-acc': 'soft template acc is 0.90000', 'freeze-soft-template-acc': '0.90000'}{'model-name': 'bert', 'plm-freeze': False, 'template': ManualTemplate(), 'acc': 'acc is 0.10000', 'sample': 'zero-shot', 'zero-shot-hard-template-acc': '0.10000'}{'model-name': 'bert', 'plm-freeze': False, 'template': ManualTemplate(), 'acc': 'acc is 0.11417', 'sample': 'zero-shot', 'zero-shot-hard-template-acc': '0.11417'}{'model-name': 'bert', 'plm-freeze': False, 'template': ManualTemplate(), 'acc': 'acc is 0.11542', 'sample': 'zero-shot', 'zero-shot-hard-template-acc': '0.11542'}
+{'model-name': 't5', 'plm-freeze': False, 'template': ManualTemplate(), 'acc': 'acc is 0.13320', 'sample': 'zero-shot', 'zero-shot-hard-template-acc': '0.13320'}
+{'model-name': 'ernie', 'plm-freeze': False, 'template': ManualTemplate(), 'acc': 'acc is 0.13872', 'sample': 'zero-shot', 'zero-shot-hard-template-acc': '0.13872'}
+
+{'not-freeze-hard-template-acc': '0.82000', 'model-name': 'bert', 'plm-freeze': False, 'template': 'Content: {"placeholder":"text_a"} Subject: {"placeholder":"text_b"}. This is {"mask"} email.', 'mixed-template': '{"placeholder":"text_a"} {"soft": "Question:"} {"placeholder":"text_b"}? This is {"mask"} email.', 'mixed-template-acc': 'soft template acc is 0.82000'}
+{'not-freeze-hard-template-acc': '0.86000'}
+{'not-freeze-hard-template-acc': '0.91000'}
+{'model-name': 'bert', 'plm-freeze': False, 'template': ManualTemplate(), 'acc': 'acc is 0.05000', 'sample': 'zero-shot', 'zero-shot-hard-template-acc': '0.05000'}
+{'model-name': 'bert', 'plm-freeze': False, 'template': ManualTemplate(), 'acc': 'acc is 0.04000', 'sample': 'zero-shot', 'zero-shot-hard-template-acc': '0.04000'}
